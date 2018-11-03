@@ -10,7 +10,7 @@ client.on('ready', function(){
     console.log('Ready')
 })
 
-class BossPickerCommand extends commando.Command
+class BossPickerCommand extends Discord.Command
 {
     constructor(client) 
     {
