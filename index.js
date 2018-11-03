@@ -1,5 +1,5 @@
-const Commando = require('discord.js-commando');
-const client = new Commando.client();
+const Discord = require('discord.js');
+const client = new Discord.client();
 const TOKEN = 'process.env.TOKEN';
 
 client.registry.registerGroup('simple', 'Simple');

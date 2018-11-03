@@ -1,4 +1,4 @@
-const commando = require('discord.js-commando');
+const commando = require('discord.js');
 
 class BossPickerCommand extends commando.Command
 {
