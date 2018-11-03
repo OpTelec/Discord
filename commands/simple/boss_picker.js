@@ -13,7 +13,7 @@ description:'Use!bosspicktoselectarandomboss'
 }
 
 
-asyncrun(message,args)
+async run(message,args)
 {
 varbosses=Array('Telos','Helwyr','Vindicta&Gorvek','ChaosElemental','QueenBlackDragon','Nex','K\'\rillTsutsaroth','Arraxor','KingBlackDragon','GiantMole','Gregorovic','GeneralGraador','DagannothKings','CorporealBeast','ComamnderZilyana','BarrowsBrothers','EliteDungeons','Kree\'\Arra','Legiones','TwinFuries');
 constrandomBoss=bosses[Math.floor(Math.random()*bosses.length)];
