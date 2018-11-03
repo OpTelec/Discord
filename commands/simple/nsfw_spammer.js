@@ -13,10 +13,16 @@ description:'Use !suprise to send someone a nice gift'
 }
 
 
+
 async run(message,args)
 {
 message.channel.sendMessage("bbsendnudes "+ args)
-}
-}
+message.channel.sendMessage("bbsendnudes "+ args)
+message.channel.sendMessage("bbsendnudes "+ args)
+message.channel.sendMessage("bbsendnudes "+ args)
+message.channel.sendMessage("bbsendnudes "+ args)
+
+        }
+    }
 
 module.exports=NsfwSpamCommand;
