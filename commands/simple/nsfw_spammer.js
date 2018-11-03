@@ -15,7 +15,7 @@ description:'Use !suprise to send someone a nice gift'
 
 async run(message,args)
 {
-message.channel.send("bbsendnudes"+ message.content)
+message.channel.sendMessage("bbsendnudes "+ args)
 }
 }
 
