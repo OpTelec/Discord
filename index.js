@@ -1,6 +1,6 @@
 const Discord = require('discord.js-commando');
 const client = new Discord.Client();
-const TOKEN = 'process.env.TOKEN';
+const TOKEN = process.env.TOKEN;
 
 client.registry.registerGroup('simple', 'Simple');
 client.registry.registerDefaults();
