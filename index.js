@@ -10,7 +10,7 @@ client.on('ready', function(){
     console.log('Ready')
 })
 
-client.login(TOKEN);
+client.login(NTA3OTI3MTg0NjE1Mjc2NTQ0.Dr3z5w.jVBcbM8iqwV7t9N2lcoUgOsgUC8);
 
 
 
