@@ -8,17 +8,17 @@ super(client,{
 name:'bosspick',
 group:'simple',
 memberName:'bosspick',
-description:'Use!bosspicktoselectarandomboss'
+description:'Use !bosspick to select a random boss'
 });
 }
 
 
 async run(message,args)
 {
-varbosses=Array('Telos','Helwyr','Vindicta&Gorvek','ChaosElemental','QueenBlackDragon','Nex','K\'\rillTsutsaroth','Arraxor','KingBlackDragon','GiantMole','Gregorovic','GeneralGraador','DagannothKings','CorporealBeast','ComamnderZilyana','BarrowsBrothers','EliteDungeons','Kree\'\Arra','Legiones','TwinFuries');
-constrandomBoss=bosses[Math.floor(Math.random()*bosses.length)];
+var bosses=Array('Telos','Helwyr','Vindicta & Gorvek','Chaos Elemental','Queen Black Dragon','Nex','K\'\rill Tsutsaroth','Arraxor','King Black Dragon','Giant Mole','Gregorovic','General Graador','Dagannoth Kings','Corporeal Beast','ComamnderZilyana','Barrows Brothers','Elite Dungeons','Kree\'\Arra','Legiones','Twin Furies');
+const randomBoss=bosses[Math.floor(Math.random()*bosses.length)];
 
-message.reply("Yourchosenbossis:"+randomBoss)
+message.reply("Your chosenboss is: "+randomBoss)
 }
 }
 
