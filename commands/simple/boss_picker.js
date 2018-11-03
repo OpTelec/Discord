@@ -1,6 +1,6 @@
 const commando=require('discord.js-commando');
 
-class nBossPickerCommand extends commando.Command
+class BossPickerCommand extends commando.Command
 {
 constructor(client)
 {
