@@ -1,4 +1,5 @@
 const Discord = require('discord.js-commando');
+const fs = require ("fs");
 const client = new Discord.Client();
 const TOKEN = process.env.TOKEN;
 
