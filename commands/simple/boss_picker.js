@@ -5,7 +5,7 @@ class BossPickerCommand extends commando.Command
 constructor(client)
 {
 super(client,{
-name:'bosspick',
+name:'m!bosspick',
 group:'simple',
 memberName:'bosspick',
 description:'Use !bosspick to select a random boss'
