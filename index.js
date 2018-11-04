@@ -9,14 +9,14 @@ client.registry.registerCommandsIn (__dirname + '/commands');
 
 client.on('ready', function(){
     console.log('Ready')
-})
+}); 
 
 let prefixes = JSON.parse(fs.readFileSync("prefixes.json","utf8"));
 
 if (!prefixes[message.guild.id]){
-    prefixes[message.guld.id] = {
+    prefixes[message.guild.id] = {
         prefixes: botconfig.prefix
-    };
+    };;
 }
 
 let prefix = prefixes[message.guild.id].prefixes;
