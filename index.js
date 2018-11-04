@@ -20,7 +20,6 @@ if (!prefixes[message.guild.id]){
 }
 
 let prefix = prefixes[message.guild.id].prefixes;
-let prefix = botconfig.prefix;
 
 client.login(TOKEN).catch(err => console.log(err));
 
