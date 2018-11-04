@@ -2,10 +2,6 @@ const commando = require('discord.js-commando');
 const fs = require ("fs");
 const TOKEN = process.env.TOKEN;
 const client = new commando.Client({
-
-    commandPrefix: '<',
-    owner: 'Henke@0080',
-    disableEveryone: true,
     unknownCommandResponse: false
 });
 
