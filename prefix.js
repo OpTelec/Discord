@@ -11,7 +11,7 @@ if(!args[0] || args [0 == "help"]) return message.reply ("Usage: !prefix <desire
 let prefixes = JSON.parse(fs.readFileSync("./prefixes.json", "utf8"))
 
 prefixes[message.guild.id] = {
-    prefixes: arge[0]
+    prefixes: args[0]
 };
 
 fs.writeFile("./prefixes.json", JSON.stringify(prefixes), (err) => {

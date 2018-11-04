@@ -21,6 +21,7 @@ if (!prefixes[message.guild.id]){
 
 let prefix = prefixes[message.guild.id].prefixes;
 
+
 client.login(TOKEN).catch(err => console.log(err));
 
 
