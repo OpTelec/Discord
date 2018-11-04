@@ -10,6 +10,15 @@ client.on('ready', function(){
     console.log('Ready')
 })
 
+let prefixes = JSON.parse(fs.readFileSync("./prefixes.json","utf8"));
+
+if (!prefixes[message.guild.id]){
+    prefixes[message.guld.id] = {
+        prefixes: botconfig.prefix
+    }
+}
+
+
 client.login(TOKEN).catch(err => console.log(err));
 
 
