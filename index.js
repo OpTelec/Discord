@@ -19,7 +19,7 @@ if (!prefixes[message.guild.id]){
     };
 }
 
-let prefix = prefixes[messag.guild.id].prefixes;
+let prefix = prefixes[message.guild.id].prefixes;
 
 client.login(TOKEN).catch(err => console.log(err));
 
