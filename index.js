@@ -16,11 +16,11 @@ let prefixes = JSON.parse(fs.readFileSync("prefixes.json","utf8"));
 if (!prefixes[message.guild.id]){
     prefixes[message.guild.id] = {
         prefixes: botconfig.prefix
-    };;
+    };
 }
 
 let prefix = prefixes[message.guild.id].prefixes;
-
+let prefix = botconfig.prefix;
 
 client.login(TOKEN).catch(err => console.log(err));
 
