@@ -21,6 +21,8 @@ let sEmbed = new Discord.RichEmbed()
 .setTitle("Prefix Set!")
 .setDescription(`Set to ${args[0]}`);
 
+message.channel.send(sEmbed);
+
 }
 
 module.exports.help = {
